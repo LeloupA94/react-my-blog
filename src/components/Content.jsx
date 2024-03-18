@@ -1,12 +1,12 @@
+import MainContent from "./MainContent";
+import SideContent from "./SideContent";
+
 const Content = () => {
   return (
     <>
-      <div className="content">
-        <div className="MainContent">
-          <div className="article-1"></div>
-          <div className="article-2"></div>
-        </div>
-        <div className="SideContent"></div>
+      <div className="contenu">
+        <MainContent />
+        <SideContent />
       </div>
     </>
   );
