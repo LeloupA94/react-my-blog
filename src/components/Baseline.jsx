@@ -1,4 +1,4 @@
-const Title = () => {
+const Baseline = () => {
   return <h2>An awesome baseline</h2>;
 };
-export default Title;
+export default Baseline;
