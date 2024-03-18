@@ -43,8 +43,7 @@ header {
 
 .nav {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: space-around;
   height: 50px;
   line-height: 50px;
   background: #333333;
@@ -54,25 +53,16 @@ header {
   text-decoration: none;
   color: white;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  margin-left: 20px;
+  margin-left: 40px;
 }
-ul {
-  /* Styles pour la liste */
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between; /* Aligner les éléments avec un espace entre eux */
-  margin-right: 20px;
-}
-li {
+
+.lastLink {
   margin-right: 40px;
 }
-.lastLink a {
-  float: right;
-  margin-right: 20px;
-}
 .contenu {
+  display: flex;
+  gap: 20px;
+  width: 100%;
   margin-bottom: 40px;
 }
 .article {
@@ -81,6 +71,11 @@ li {
   justify-content: space-between;
   background: white;
   padding: 30px;
+  flex: 1;
+}
+
+.article > div {
+  padding: 10px 20px 30px;
 }
 
 .article img {
@@ -90,11 +85,12 @@ li {
 }
 
 .infos {
-  width: 30%;
+  width: 340px;
+  height: 450px;
   display: flex;
   justify-content: space-around;
   background: white;
-  padding: 20px;
+  padding: 20px 20px 20px;
 }
 
 .infos h2 {

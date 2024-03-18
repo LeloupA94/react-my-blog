@@ -1,20 +1,17 @@
 const NavigationMenu = () => {
   return (
     <div className="nav">
-      <ul>
-        <li>
-          <a href="">Link 1</a>
-        </li>
-        <li>
-          <a href="">Link 2</a>
-        </li>
-        <li>
-          <a href="">Link 3</a>
-        </li>
-        <li className="lastLink">
-          <a href="">Link 4</a>
-        </li>
-      </ul>
+      <div>
+        <a href="">Link 1</a>
+
+        <a href="">Link 2</a>
+
+        <a href="">Link 3</a>
+
+        <a className="lastLink" href="">
+          Link 4
+        </a>
+      </div>
     </div>
   );
 };
